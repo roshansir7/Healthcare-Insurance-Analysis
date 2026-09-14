@@ -39,15 +39,22 @@ The project includes:
 * Creating SQL reports
 * Designing a Tableau dashboard
 
-## Machine-Learning Models
+## Machine Learning
 
-The predictive analysis evaluates multiple regression approaches, including:
+Two regression models were developed and evaluated:
 
-* SGD Regression
-* Random Forest Regression
-* XGBoost Regression
+- Ridge Regression
+- Gradient Boosting
 
-Model performance is assessed using cross-validation and error-based evaluation metrics.
+### Model Performance
+
+| Model | MAE |
+|---|---:|
+| Ridge Regression | 2,741.30 |
+| Gradient Boosting | 2,078.38 |
+
+Gradient Boosting achieved the lowest MAE and was selected as the
+best-performing model for the analysis.
 
 ## SQL Analysis
 

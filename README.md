@@ -67,7 +67,7 @@ The SQL script answers healthcare business questions such as:
 * Patient-level healthcare and demographic summaries
 
 ## Dashboard
-![Uploading Screenshot 2026-10-13 at 2.35.09 PM.png…]()
+![Healthcare Insurance Dashboard](Source_code/Dashboard.png)
 
 
 The Tableau workbook presents major healthcare indicators and comparisons in an interactive format.
